@@ -1,7 +1,7 @@
 # Workshop de Big Data con Apache Spark [:)]
 # Trabajo Final: M. Jazmín Montero + José Ignacio López Sáez
 
-<---
+
 Se dispone de un dataset con la principal información de los vuelos aterrizados y despegados de los aeropuertos de la República Argentina desde el 01/01/2014 al último trimestre del 2017.
 
 En el mismo (flight.csv)se dispone la información de Fecha y Hora de la operación (aterrizaje o despegue), el número de vuelo ("callsign"), la matrícula de la aeronave, un código que identifica el tipo de aeronave, un código que identifica a la aerolínea y el código OACI de origen y el destino.
@@ -11,7 +11,7 @@ El objetivo final será poder levantar y procesar el dataset primario utilizando
 
 
 Se tomó como referencia principal el código fuente (EtlSteps.scala) del proyecto us-stocks-analysis presentado en clase en la semana del 21/11/2017 en el ITBA en el marco del Seminario Intensivo de Tópicos Avanzados en Datos Complejos.
--->
+
 
 
 ## Infrastructura
@@ -28,7 +28,7 @@ Los puertos de acceso a cada servicio quedaron los defaults. Ej: spark-master:70
 git clone https://github.com/jazminmontero/Bigdata-LopezSaez-Montero.git
 
 IMPORTANTE:
-Asegurarse que todos los progamas ejecutables tengan la opción "allow executing file as program”
+Asegurarse que todos los progamas ejecutables tengan la opción "allow executing file as program”.                           
 Debido al peso del csv hubo que guardarlo en un zip, primero se lo debe descomprimir en la carpeta dataset>>Flight
 
 ## Levantar ambiente
